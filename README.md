@@ -13,11 +13,11 @@ This section explains how to add Bridgefy to an existing project with native cod
 Let's suppose your project name is `AwesomeProject`, go to the root directory of the project and run the following command:
 
 ```
-npm install --save git+https://git@bitbucket.org/bridgefy/react-native-bridgefy-sdk.git
+npm install --save react-native-bridgefy-sdk
 ```
 or 
 ```
-yarn add git+https://git@bitbucket.org/bridgefy/react-native-bridgefy-sdk.git
+yarn add react-native-bridgefy-sdk
 ```
 
 It will download and install the bridgefy module.  
