@@ -1,0 +1,45 @@
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+    }
+}
+
+apply plugin: 'com.android.library'
+// apply plugin: 'android'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 20000
+        versionName "2.0.0"
+    }
+    lintOptions {
+        abortOnError false
+        warning 'InvalidPackage'
+    }
+}
+
+repositories {
+    maven {
+        url "http://maven.bridgefy.com/artifactory/libs-release-local"
+        artifactUrls = ["http://jcenter.bintray.com/"]
+    }
+    jcenter()
+    google()
+}
+
+dependencies {
+    implementation "com.facebook.react:react-native:+"
+    implementation('com.bridgefy:android-sdk:2.0.+@aar') { transitive=true }
+    // implementation 'com.bridgefy:android-sdk:2.0.0'
+}
