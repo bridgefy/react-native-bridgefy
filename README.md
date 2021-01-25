@@ -1,6 +1,6 @@
 <p align="center"><a href="https://bridgefy.me" target="_blank" rel="noopener noreferrer"><img width="400" src="https://admin.bridgefy.me/assets/img/bridgefy-logo.svg" alt="Vue logo"></a></p>
 
-![Maven metadata URL](https://img.shields.io/maven-metadata/v?metadataUrl=http%3A%2F%2F104.196.228.98%3A8081%2Fartifactory%2Flibs-release-local%2Fcom%2Fbridgefy%2Fandroid-sdk%2Fmaven-metadata.xml) ![Cocoapods](https://img.shields.io/cocoapods/v/BFTransmitter) ![GitHub package.json version](https://img.shields.io/github/package-json/v/bridgefy/react-native-bridgefy-sdk) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/bridgefy/react-native-bridgefy-sdk/master) ![GitHub issues](https://img.shields.io/github/issues/bridgefy/react-native-bridgefy-sdk)
+![Maven metadata URL](https://img.shields.io/maven-metadata/v?metadataUrl=http%3A%2F%2F104.196.228.98%3A8081%2Fartifactory%2Flibs-release-local%2Fcom%2Fbridgefy%2Fandroid-sdk%2Fmaven-metadata.xml) ![Cocoapods](https://img.shields.io/cocoapods/v/BFTransmitter) ![GitHub package.json version](https://img.shields.io/github/package-json/v/bridgefy/react-native-bridgefy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/bridgefy/react-native-bridgefy/master) ![GitHub issues](https://img.shields.io/github/issues/bridgefy/react-native-bridgefy)
 
 # React Native interface for Bridgefy
 This repository contains a module for [React Native](https://facebook.github.io/react-native/) that is an interface to use [Bridgefy SDK](https://www.bridgefy.me/), this interface can be used for Android and iOS projects. If you want to know how to use the framework natively in android, you can find it [here](https://github.com/bridgefy/bridgefy-android-samples/blob/master/README.md), in the other hand the official iOS repository is [here](https://bitbucket.org/bridgefy/bridgefy-ios-dist).
@@ -13,11 +13,11 @@ This section explains how to add Bridgefy to an existing project with native cod
 Let's suppose your project name is `AwesomeProject`, go to the root directory of the project and run the following command:
 
 ```
-npm install --save react-native-bridgefy-sdk
+npm install --save react-native-bridgefy
 ```
 or 
 ```
-yarn add react-native-bridgefy-sdk
+yarn add react-native-bridgefy
 ```
 
 It will download and install the bridgefy module.  
