@@ -3,13 +3,13 @@
     "name": "Bridgefy Development Team"
   },
   "bugs": {
-    "url": "https://github.com/bridgefy/react-native-bridgefy-sdk/issues"
+    "url": "https://github.com/bridgefy/react-native-bridgefy/issues"
   },
   "dependencies": {},
   "description": "Bridgefy SDK React Native module",
   "devDependencies": {},
   "gitHead": "921ca9ae365b58f668fb720544f6e93e22aa9b4e",
-  "homepage": "https://github.com/bridgefy/react-native-bridgefy-sdk",
+  "homepage": "https://github.com/bridgefy/react-native-bridgefy",
   "keywords": [
     "react-native",
     "react-native-bridgefy",
@@ -22,7 +22,7 @@
     "chat"
   ],
   "license": "MIT",
-  "name": "react-native-bridgefy-sdk",
+  "name": "react-native-bridgefy",
   "optionalDependencies": {},
   "peerDependencies": {
     "react-native": ">= 0.60.0"
@@ -31,7 +31,7 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bridgefy/react-native-bridgefy-sdk.git"
+    "url": "git+https://github.com/bridgefy/react-native-bridgefy.git"
   },
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
