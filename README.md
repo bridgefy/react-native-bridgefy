@@ -91,7 +91,7 @@ First, make sure you have an API KEY to use the framework, if you don't have it,
 To start to work with the framework in Javascript, you will have to import it to the `.js` file you will be working, so add the following code:
 
 ```javascript
-import RNBridgefy from 'react-native-bridgefy-sdk';
+import RNBridgefy from 'react-native-bridgefy';
 import {
     ...
     NativeEventEmitter,

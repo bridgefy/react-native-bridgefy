@@ -28,11 +28,11 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 import prompt from 'react-native-prompt-android';
 
-import RNBridgefy, { BrdgNativeEventEmitter } from 'react-native-bridgefy-sdk';
+import RNBridgefy, { BrdgNativeEventEmitter } from 'react-native-bridgefy';
 import { BridgefyMessage, BridgefyClient, MessageFailedEvent, MessageReceivedExceptionEvent, 
     StartErrorEvent, StoppedEvent, DeviceConnectedEvent, DeviceLostEvent, DeviceDetectedEvent,
-    DeviceUnavailableEvent } from 'react-native-bridgefy-sdk';
-import { MessageDataProgressEvent } from '../react-native-bridgefy-sdk/typings';
+    DeviceUnavailableEvent } from 'react-native-bridgefy';
+import { MessageDataProgressEvent } from '../react-native-bridgefy/typings';
 
 interface AppMsg {
     msg: string

@@ -12,9 +12,9 @@ import { GiftedChat, IMessage, User } from 'react-native-gifted-chat';
 import 'react-native-get-random-values';
 import { v4 as uuid } from 'uuid';
 
-import RNBridgefy, { BrdgNativeEventEmitter } from 'react-native-bridgefy-sdk';
+import RNBridgefy, { BrdgNativeEventEmitter } from 'react-native-bridgefy';
 
-import { BridgefyMessage, BridgefyClient, MessageFailedEvent, MessageReceivedExceptionEvent, StartErrorEvent, StoppedEvent, DeviceConnectedEvent, DeviceLostEvent, EventOccurredEvent } from 'react-native-bridgefy-sdk';
+import { BridgefyMessage, BridgefyClient, MessageFailedEvent, MessageReceivedExceptionEvent, StartErrorEvent, StoppedEvent, DeviceConnectedEvent, DeviceLostEvent, EventOccurredEvent } from 'react-native-bridgefy';
 
 const BRDG_LICENSE_KEY:string = "COPY YOU LICENSE KEY HERE";
 

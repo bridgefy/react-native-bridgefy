@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # s.license     = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author        = { "Bridgefy" => "contact@bridgefy.me" }
   s.platform      = :ios, "11.0"
-  s.source        = { :git => "https://bitbucket.org/bridgefy/react-native-bridgefy-sdk", :tag => "master" }
+  s.source        = { :git => "https://github.com/bridgefy/react-native-bridgefy", :tag => "master" }
   s.source_files  = "**/*.{h,m}"
   s.requires_arc = true
 
