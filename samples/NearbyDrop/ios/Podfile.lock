@@ -358,7 +358,7 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - RNBridgefy (from `../node_modules/react-native-bridgefy-sdk/ios`)
+  - RNBridgefy (from `../node_modules/react-native-bridgefy/ios`)
   - RNFileViewer (from `../node_modules/react-native-file-viewer`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -433,7 +433,7 @@ EXTERNAL SOURCES:
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
   RNBridgefy:
-    :path: "../node_modules/react-native-bridgefy-sdk/ios"
+    :path: "../node_modules/react-native-bridgefy/ios"
   RNFileViewer:
     :path: "../node_modules/react-native-file-viewer"
   RNVectorIcons:
