@@ -1,6 +1,19 @@
-<p align="center"><a href="https://bridgefy.me" target="_blank" rel="noopener noreferrer"><img width="400" src="https://admin.bridgefy.me/assets/img/bridgefy-logo.svg" alt="Vue logo"></a></p>
+### Bridgefy 
+
+<p align="center"><a href="https://bridgefy.me" target="_blank" rel="noopener noreferrer"><img width="400" src="https://bridgefy.me/wp-content/uploads/2021/04/bridgefy_logo_red.svg" alt="Vue logo"></a></p>
 
 ![Maven metadata URL](https://img.shields.io/maven-metadata/v?metadataUrl=http%3A%2F%2F104.196.228.98%3A8081%2Fartifactory%2Flibs-release-local%2Fcom%2Fbridgefy%2Fandroid-sdk%2Fmaven-metadata.xml) ![Cocoapods](https://img.shields.io/cocoapods/v/BFTransmitter) ![GitHub package.json version](https://img.shields.io/github/package-json/v/bridgefy/react-native-bridgefy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/bridgefy/react-native-bridgefy/master) ![GitHub issues](https://img.shields.io/github/issues/bridgefy/react-native-bridgefy)
+
+# Overview
+
+The Bridgefy Software Development Kit (SDK) is a state-of-the-art, plug-and-play package of awesomeness that will let people use your mobile app when they don’t have access to the Internet by using mesh networks.
+
+Integrate the Bridgefy SDK into your [Android](https://github.com/bridgefy/bridgefy-android-samples) and [iOS](https://github.com/bridgefy/bridgefy-ios-developer) app to reach the 3.5 billion people that don’t always have access to an Internet connection, and watch engagement and revenue grow!
+
+<p>Website. https://bridgefy.me/sdk/</p>
+<p>Email. contact@bridgefy.me </p>
+<p>Twitter. https://twitter.com/bridgefy</p>
+<p>Facebook. https://www.facebook.com/bridgefy</p>
 
 # React Native interface for Bridgefy
 This repository contains a module for [React Native](https://facebook.github.io/react-native/) that is an interface to use [Bridgefy SDK](https://www.bridgefy.me/), this interface can be used for Android and iOS projects. If you want to know how to use the framework natively in android, you can find it [here](https://github.com/bridgefy/bridgefy-android-samples/blob/master/README.md), in the other hand the official iOS repository is [here](https://bitbucket.org/bridgefy/bridgefy-ios-dist).
